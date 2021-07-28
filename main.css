@@ -1,0 +1,49 @@
+div#account-area {
+	margin-top: 5%;
+	display: none;
+}
+#code{
+    color: black;
+}
+.cap{
+    width: 500px;
+    height: 50px;
+    color: aqua;
+    align-content: center;
+    margin: 5px auto;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.submit-area {
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px gray;
+            box-shadow: 5px 5px gray;
+    color: white;
+    background-color: royalblue;
+  }
+  
+  /* #account-area {
+    margin-top: 5%;
+    display: none;
+  }
+   */
+  .deposit {
+    background-color: slateblue;
+  }
+  
+  .withdraw {
+    background-color: lightsalmon;
+  }
+  
+  .balance {
+    background-color: tomato;
+  }
+  
+  .status {
+    margin: 0 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
