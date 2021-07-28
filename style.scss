@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	padding-top: 100px;
-  background-color: #363958;
 }
 
 .submit-area {
@@ -12,9 +11,13 @@ body {
   color: white;
   background-color: rgb(128, 26, 46);
 }
+#startform{
+	margin: 5px auto;
+}
 
-#account-area {
+div#account-area {
 	margin-top: 5%;
+	display: none !important
 }
 
 .deposit {
@@ -26,7 +29,7 @@ body {
 }
 
 .balance {
-	background-color: tomato;
+	background-color: rgb(99, 79, 76);
 }
 
 .status {

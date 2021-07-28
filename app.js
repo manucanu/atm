@@ -1,3 +1,5 @@
+
+
 let actBalance = 0
 
 const depositInput = document.getElementById("deposit-amount")
@@ -7,8 +9,14 @@ const withDrawBtn = document.getElementById("withdraw-btn")
 const currentBalance = document.getElementById("current-balance")
 const currentDepositSpan = document.getElementById("current-deposit")
 const currentWithdrawSpan = document.getElementById("current-withdraw")
+const code = document.getElementById("code")
+const body = document.getElementById("account-area")
+const form = document.getElementById("startForm")
 
-
+code.addEventListener("click", () => {
+    form.style.display = "none"
+    body.style.display = "block"
+})
 
 
 depositBtn.addEventListener("click", (e) => {
